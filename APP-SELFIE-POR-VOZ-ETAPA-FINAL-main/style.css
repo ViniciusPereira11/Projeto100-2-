@@ -1,0 +1,19 @@
+#camera, #result1, #result2, #result3{
+    border:dashed 2px;
+    box-sizing: border-box;
+    width:310px;
+    height:260px;
+    margin:20px;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width:250px;
+    height:50px;
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+   
+    <title>Tire minhas selfies</title>
+</head>
+<body>
+    <!--LINK PARA FAZER O DOWNLOAD-->
+    <a download="SuaFoto.png" id="link"></a>
+    <div class="container">
+      <center>
+        <h1 class="page-header"> TIRE MINHAS SELFIES </h1>
+        <textarea id='caixaTexto'></textarea>
+        <hr>
+
+        <h3> Aperte no botão para tirar suas fotos </h3>
+        <label> Sua webcam irá aparecer aqui </label> <br>
+        <button class="btn btn-info" onclick="start()">TIRAR FOTO</button>
+        <div id="camera"></div>  
+        <h2>Suas selfies irão aparecer aqui</h2> <br>
+        <div class="row">
+            <div id="result1"></div>
+            <div id="result2"></div>
+        </div>
+        <div id="result3"></div>
+      </center> 
+
+    </div>
+     <script src="main.js"></script>
+</body>
+</html>
